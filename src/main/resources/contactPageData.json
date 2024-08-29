@@ -1,0 +1,13 @@
+{
+  "ContactData1": {
+    "email" : "test@hcode.com",
+    "name" : "test01",
+    "message": "I have a good experience from this site"
+    
+  },
+  "placeOrderData2" : {
+  "email" : "test1@hcode.com",
+    "name" : "test02",
+    "message": "I have a good experience from this site"
+  }
+}

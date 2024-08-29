@@ -1,0 +1,11 @@
+{
+  "createProject": {
+    "Project Name" : "Info",
+    "Project Type" : "Small Business",
+    "Description": "User should able to create new >> account"
+  },
+ "createBoard": {
+    "Board Name" : "Trp",
+    "Description": "User should able to create new >> account"
+  }
+}

@@ -1,0 +1,23 @@
+image: maven:latest
+
+stages:
+  -  build
+  -  test
+
+validate:
+  stage: build
+  script:
+    - echo "Start compiling"
+    - mvn compile
+    
+test:
+  stage: test
+  script:
+    - echo "testing started"
+    - mvn clean test -Dmaven.test.failure.ignore=true
+  artifacts:
+     paths:
+      - extentReport/report.html
+      - test-output/emailable-report.html
+     when: on_success
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.PlanIT.WitsLab.tests.prmsTestScript">
+        <methods>
+          <include name="beforeTestThreadContextSetup"/>
+          <include name="logout"/>
+          <include name="afterTestThreadContextCleanup"/>
+          <include name="verifyUpdateDetailsOfTickets"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyloginPage"/>
+          <include name="createObject"/>
+          <include name="verifyAddMemberFromProjectSetting"/>
+        </methods>
+      </class> <!-- com.PlanIT.WitsLab.tests.prmsTestScript -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
