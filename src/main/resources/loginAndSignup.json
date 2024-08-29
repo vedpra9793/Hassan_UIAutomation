@@ -1,0 +1,15 @@
+{
+  "login": {
+    "Email" : "sunil.kumar@thewitslab.com",
+    "Password" : "SunilSunil"
+      },
+    "gauravLogin": {
+    "Email" : "gaurav.dubey@thewitslab.com",
+    "Password" : "Gaurav@1998"
+      },
+    "SignUp": {
+    "Name" : "Gaurav Dubey",
+    "Email" : "Gaurav.dubey@thewitslab.com",
+     "Password" : "Gaurav@1998"
+      }
+}
